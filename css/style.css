@@ -1,0 +1,77 @@
+* {
+  font-family: 'lato'; }
+
+nav {
+  background: black;
+  color: white;
+  overflow: hidden; }
+  nav li {
+    list-style: none;
+    float: left;
+    margin: 3%; }
+
+.nav-left {
+  float: left;
+  width: 30%;
+  margin-left: 5%; }
+
+.nav-right {
+  float: right;
+  width: 50%; }
+  .nav-right .why {
+    border: 1px solid white;
+    padding: 10px; }
+  .nav-right .menu-border {
+    border: 1px solid transparent;
+    padding: 10px; }
+
+.logo {
+  height: 100px; }
+
+.hero {
+  background-image: url("../images/hero.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden; }
+  .hero h1 {
+    color: white;
+    font-size: 48px;
+    font-family: 'lato';
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 7%; }
+
+.images {
+  text-align: center; }
+  .images img {
+    width: 33%; }
+
+.content {
+  margin: 5%;
+  font-size: 24px;
+  font-family: 'lato';
+  font-weight: 300; }
+  .content .partner {
+    font-weight: bold;
+    text-align: center; }
+
+.images-2 {
+  text-align: center; }
+  .images-2 img {
+    width: 49.5%; }
+
+.affiliations {
+  text-align: center; }
+  .affiliations img {
+    width: 30%;
+    margin: 2%; }
+  .affiliations .img-row2 img {
+    width: 15%; }
+
+h1 {
+  font-size: 50px;
+  font-family: 'lato';
+  font-weight: 300; }
+
+/*# sourceMappingURL=style.css.map */
